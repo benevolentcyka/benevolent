@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0b0c0f">
+  <meta name="description" content="Benevolent writes responsible-disclosure notes, build logs, investigations, and the occasional rant.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Benevolent — disclosures, builds & rabbit holes">
+  <meta property="og:description" content="Responsible disclosures, things I build, investigations, internet rabbit holes, and occasional rants.">
+  <meta property="og:url" content="https://benevolent.arlonbharat.com/">
+  <meta property="og:image" content="https://benevolent.arlonbharat.com/assets/og-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Benevolent — disclosures, builds & rabbit holes</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/theme-init.js"></script>
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page-grid" aria-hidden="true"></div>
+  <div class="glow glow-one" aria-hidden="true"></div>
+  <div class="glow glow-two" aria-hidden="true"></div>
+
+  <header class="site-header wrap">
+    <a class="wordmark" href="/" aria-label="Benevolent home">
+      <span class="wordmark-mark">B</span>
+      <span class="wordmark-text">benevolent</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="/blog/">notes</a>
+      <a href="https://github.com/benevolentcyka" target="_blank" rel="noreferrer">github</a>
+      <a href="mailto:benevolent@arlonbharat.com">email</a>
+      <button class="theme-toggle" type="button" aria-label="Switch colour theme" aria-pressed="true">
+        <span class="theme-toggle-track" aria-hidden="true">
+          <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v2.2M12 19.8V22M4.93 4.93l1.56 1.56M17.51 17.51l1.56 1.56M2 12h2.2M19.8 12H22M4.93 19.07l1.56-1.56M17.51 6.49l1.56-1.56"/></svg>
+          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24"><path d="M20.4 15.1A8.4 8.4 0 0 1 8.9 3.6 8.5 8.5 0 1 0 20.4 15.1Z"/></svg>
+        </span>
+        <span class="sr-only">Toggle theme</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> hej hej — it’s benevolent</p>
+        <h1 id="hero-title">I build systems. <em>I question them.</em></h1>
+        <div class="bio copy-width">
+          <p>Most days I’m turning messy manufacturing and business processes into software: ERP workflows, internal tools, automations, and interfaces that people can use without fighting them. That is the builder half.</p>
+          <p>The other half notices when something does not add up - a portal trusting public information, a strange transaction trail, an internet puzzle, or a product decision that feels needlessly broken. I studied cybersecurity, but I care less about sounding like a “security person” than finding the actual failure mode and explaining it clearly.</p>
+          <p>This is where I publish vulnerability disclosures once they are safe to discuss, notes from things I build, investigations that consumed more time than intended, and the occasional rant.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="button button-primary" href="/blog/">Read what I found <span aria-hidden="true">↗</span></a>
+          <a class="button button-ghost" href="mailto:benevolent@arlonbharat.com">Send me something odd</a>
+        </div>
+        <p class="nerd-snipe"><span>Currently losing time to:</span> ERPNext, public-facing portals, Bitcoin puzzles, and whatever looked harmless five minutes ago.</p>
+      </div>
+
+      <aside class="identity-card" aria-label="Benevolent profile card" data-tilt-card>
+        <div class="card-noise" aria-hidden="true"></div>
+        <div class="avatar">
+          <img src="/assets/avatar.webp" alt="Illustrated profile picture used by Benevolent" width="736" height="736">
+          <div class="avatar-orbit" aria-hidden="true"></div>
+        </div>
+        <div class="identity-copy">
+          <p class="identity-kicker">hej hej</p>
+          <h2>Benevolent</h2>
+          <p>builds systems<br>reports flaws<br>writes the rest down</p>
+        </div>
+        <div class="identity-meta">
+          <span>India · UTC+5:30</span>
+          <span class="availability"><i></i> open to odd problems</span>
+        </div>
+        <div class="card-links">
+          <a href="https://github.com/benevolentcyka" target="_blank" rel="noreferrer" aria-label="Benevolent on GitHub">GH</a>
+          <a href="mailto:benevolent@arlonbharat.com" aria-label="Email Benevolent">@</a>
+        </div>
+      </aside>
+    </section>
+
+    <section class="interests" aria-labelledby="interests-title">
+      <div class="section-heading">
+        <p class="eyebrow">what I actually write about</p>
+        <h2 id="interests-title">The useful bits from <em>the rabbit holes.</em></h2>
+      </div>
+      <div class="interest-grid">
+        <article class="interest-card">
+          <span class="interest-index">01</span>
+          <h3>Responsible disclosures</h3>
+          <p>Reports and postmortems after a fix or disclosure window. The useful part is not the screenshot; it is the trust assumption that failed.</p>
+        </article>
+        <article class="interest-card">
+          <span class="interest-index">02</span>
+          <h3>Systems & tooling</h3>
+          <p>ERP workflows, internal consoles, automation, product experiments, and the unglamorous machinery that makes operations work.</p>
+        </article>
+        <article class="interest-card">
+          <span class="interest-index">03</span>
+          <h3>Thoughts & rants</h3>
+          <p>Strong opinions, half-resolved questions, internet oddities, and occasional essays written because keeping quiet felt less useful.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="latest" aria-labelledby="latest-title">
+      <div class="section-heading section-heading-row">
+        <div>
+          <p class="eyebrow">latest notes</p>
+          <h2 id="latest-title">Most recently, <em>this.</em></h2>
+        </div>
+        <a class="text-link" href="/blog/">View everything <span>↗</span></a>
+      </div>
+      <div class="post-list" data-posts data-limit="3">
+        <noscript><p>JavaScript is disabled. Visit the <a href="/blog/">notes index</a>.</p></noscript>
+      </div>
+    </section>
+
+    <section class="disclosure-note" aria-label="Responsible disclosure note">
+      <span class="disclosure-icon" aria-hidden="true">✦</span>
+      <p><strong>I report before I publish.</strong> Vulnerability details go public after remediation or a reasonable disclosure window. Credentials, personal data, and details that create avoidable risk stay out.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <p>© <span data-year></span> Benevolent. Built after one too many browser tabs.</p>
+    <div class="footer-links">
+      <a href="https://github.com/benevolentcyka" target="_blank" rel="noreferrer">github</a>
+      <a href="mailto:benevolent@arlonbharat.com">benevolent@arlonbharat.com</a>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "Benevolent",
+  "short_name": "Benevolent",
+  "description": "Responsible disclosures, build notes, investigations, and rants by Benevolent.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0c0f",
+  "theme_color": "#0b0c0f",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

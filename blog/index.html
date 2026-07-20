@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <meta name="theme-color" content="#0b0c0f">
+  <meta name="description" content="Notes by Benevolent: security disclosures, systems, experiments, observations, and occasional rants.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Notes — Benevolent">
+  <meta property="og:description" content="Responsible disclosures, build logs, investigations, product criticism, and occasional rants.">
+  <meta property="og:url" content="https://benevolent.arlonbharat.com/blog/">
+  <meta property="og:image" content="https://benevolent.arlonbharat.com/assets/og-card.png">
+  <title>Notes — Benevolent</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/theme-init.js"></script>
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page-grid" aria-hidden="true"></div>
+  <div class="glow glow-one" aria-hidden="true"></div>
+
+  <header class="site-header wrap">
+    <a class="wordmark" href="/" aria-label="Benevolent home">
+      <span class="wordmark-mark">B</span>
+      <span class="wordmark-text">benevolent</span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a class="active" href="/blog/">notes</a>
+      <a href="https://github.com/benevolentcyka" target="_blank" rel="noreferrer">github</a>
+      <a href="mailto:benevolent@arlonbharat.com">email</a>
+      <button class="theme-toggle" type="button" aria-label="Switch colour theme" aria-pressed="true">
+        <span class="theme-toggle-track" aria-hidden="true">
+          <svg class="theme-icon theme-icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v2.2M12 19.8V22M4.93 4.93l1.56 1.56M17.51 17.51l1.56 1.56M2 12h2.2M19.8 12H22M4.93 19.07l1.56-1.56M17.51 6.49l1.56-1.56"/></svg>
+          <svg class="theme-icon theme-icon-moon" viewBox="0 0 24 24"><path d="M20.4 15.1A8.4 8.4 0 0 1 8.9 3.6 8.5 8.5 0 1 0 20.4 15.1Z"/></svg>
+        </span>
+        <span class="sr-only">Toggle theme</span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap notes-page">
+    <header class="notes-intro">
+      <p class="eyebrow">disclosures / build notes / rabbit holes</p>
+      <h1>Notes from the <em>rabbit holes.</em></h1>
+      <p>Responsible disclosures, build logs, investigations, product criticism, and rants. Some are polished. Some are simply the clearest version of a thought I had far too late at night.</p>
+      <div class="filter-row" aria-label="Note categories">
+        <button class="filter-chip active" type="button" data-filter="all">all</button>
+        <button class="filter-chip" type="button" data-filter="security">security</button>
+        <button class="filter-chip" type="button" data-filter="systems">systems</button>
+        <button class="filter-chip" type="button" data-filter="meta">meta</button>
+        <button class="filter-chip" type="button" data-filter="rant">rants</button>
+      </div>
+    </header>
+
+    <section aria-label="All notes">
+      <div class="post-list post-list-large" data-posts>
+        <noscript><p>JavaScript is disabled. The first note is <a href="/blog/why-this-exists.html">Why this exists</a>.</p></noscript>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <p>© <span data-year></span> Benevolent.</p>
+    <div class="footer-links">
+      <a href="/">home</a>
+      <a href="mailto:benevolent@arlonbharat.com">email</a>
+    </div>
+  </footer>
+</body>
+</html>
